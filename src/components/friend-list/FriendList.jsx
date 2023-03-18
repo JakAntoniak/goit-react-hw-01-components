@@ -1,5 +1,5 @@
 import { ListItem } from './List-item';
-import css from '../friend-list/friend-list.css';
+import '../friend-list/friend-list.css';
 
 export const FriendList = ({ friends, numberOfFriendsShown }) => {
   const FriendsToDisplay = [];

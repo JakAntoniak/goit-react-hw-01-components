@@ -1,4 +1,4 @@
-import css from './transaction-history.css';
+import './transaction-history.css';
 
 export const TBody = ({ transactions }) => {
   return (

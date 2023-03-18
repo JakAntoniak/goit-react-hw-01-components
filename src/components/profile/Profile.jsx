@@ -1,4 +1,4 @@
-import css from '../profile/profile.css';
+import '../profile/profile.css';
 import { ProfileData } from './Profile-data';
 import { ProfileDescription } from './Profile-description';
 import { ProfilePicture } from './Profile-picture';

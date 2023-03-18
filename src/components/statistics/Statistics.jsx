@@ -1,4 +1,4 @@
-import css from './statistics.css';
+import './statistics.css';
 
 export const Statistics = ({ title, stats }) => {
   return (

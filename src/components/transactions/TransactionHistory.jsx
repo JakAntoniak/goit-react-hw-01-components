@@ -1,6 +1,6 @@
 import { TBody } from './TBody';
 import { THead } from './THead';
-import css from './transaction-history.css';
+import './transaction-history.css';
 
 export const TransactionHistory = ({ transactions }) => {
   return (
