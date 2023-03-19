@@ -1,8 +1,8 @@
-import './transaction-history.css';
+import css from './Transaction.module.css';
 
 export const THead = () => {
   return (
-    <thead className="table-head">
+    <thead className={css['table-head']}>
       <tr>
         <th>Type</th>
         <th>Amount</th>
