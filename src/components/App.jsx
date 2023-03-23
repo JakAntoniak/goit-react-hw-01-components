@@ -1,16 +1,17 @@
-import user from './profile/user.json';
-import stats from './statistics/data.json';
-import friends from './friend-list/friends.json';
-import transactions from './transactions/transactions.json';
-import { Profile } from './profile/Profile';
-import { Statistics } from './statistics/Statistics';
-import { FriendList } from './friend-list/FriendList';
-import { TransactionHistory } from './transactions/TransactionHistory';
+import user from './Profile/user.json';
+import stats from './Statistics/data.json';
+import friends from './FriendList/friends.json';
+import transactions from './Transactions/transactions.json';
+import { Profile } from './Profile/Profile';
+import { Statistics } from './Statistics/Statistics';
+import { FriendList } from './FriendList/FriendList';
+import { TransactionHistory } from './Transactions/TransactionHistory';
+import css from './style.module.css';
 
 export const App = () => {
   return (
     <>
-      <div className="container">
+      <div className={css.container}>
         <Profile
           username={user.username}
           tag={user.tag}

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './Transaction.module.css';
+import css from './style.module.css';
 
 export const TBody = ({ transactions }) => {
   return (

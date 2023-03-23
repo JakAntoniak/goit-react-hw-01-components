@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './Profile.module.css';
+import css from './style.module.css';
 
 export const ProfileDataCounter = ({ type, value }) => {
   return (

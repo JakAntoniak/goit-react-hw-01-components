@@ -1,4 +1,4 @@
-import css from './Friend.module.css';
+import css from './style.module.css';
 import PropTypes from 'prop-types';
 
 export const ListItem = ({ friend }) => {
