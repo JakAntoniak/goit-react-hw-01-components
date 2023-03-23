@@ -1,7 +1,7 @@
 import user from './user.json';
-import stats from './Statistics/data.json';
-import friends from './FriendList/friends.json';
-import transactions from './Transactions/transactions.json';
+import stats from './data.json';
+import friends from './friends.json';
+import transactions from './transactions.json';
 import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
 import { FriendList } from './FriendList/FriendList';
