@@ -3,9 +3,9 @@ import stats from './data.json';
 import friends from './friends.json';
 import transactions from './transactions.json';
 import { Profile } from './Profilex/Profile';
-import { Statistics } from './Statistics/Statistics';
-import { FriendList } from './FriendList/FriendList';
-import { TransactionHistory } from './Transactions/TransactionHistory';
+import { Statistics } from './Statisticsx/Statistics';
+import { FriendList } from './FriendListx/FriendList';
+import { TransactionHistory } from './Transactionsx/TransactionHistory';
 import css from './style.module.css';
 
 export const App = () => {
